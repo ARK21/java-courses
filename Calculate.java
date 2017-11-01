@@ -14,7 +14,5 @@ public class Calculate {
 		System.out.println("Div = " + div);
 		System.out.println("Mult = " + mult);
 		System.out.println("Pow = " + pow);
-
-
 	}
 }

@@ -2,9 +2,16 @@ public class Calculate {
 
 	public static void main (String[] args){
 		System.out.println("Calculate...");
-		int first = Integer.valueOf(args[0]);
-		int second = Integer.valueOf(args[1]);
-		int sum = first + second;
+		double first = Double.valueOf(args[0]);
+		double second = Double.valueOf(args[1]);
+		double sum = first + second;
+		double subtraction = first - second;
+		double div = first / second;
+		double mult = first * second;
 		System.out.println("Sum = " + sum);
+		System.out.println("Subtraction = " + subtraction);
+		System.out.println("Div = " + div);
+		System.out.println("Mult = " + mult);
+
 	}
 }

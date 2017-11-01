@@ -8,10 +8,13 @@ public class Calculate {
 		double subtraction = first - second;
 		double div = first / second;
 		double mult = first * second;
+		double pow = Math.pow(first, second);
 		System.out.println("Sum = " + sum);
 		System.out.println("Subtraction = " + subtraction);
 		System.out.println("Div = " + div);
 		System.out.println("Mult = " + mult);
+		System.out.println("Pow = " + pow);
+
 
 	}
 }
